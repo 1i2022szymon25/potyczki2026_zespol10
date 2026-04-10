@@ -75,3 +75,6 @@ Zmieniłem ścieżkę z /healthz na / inaczej trzeba by bylo zmieniac konfig ngi
 
 Timery Probea: ustawienie periodSeconds: 2 i initialDelaySeconds: 2 skutkuje tym ze jak kontener zostanie zlagowany to kubernetes moze go zabic.
 
+### zadanie 10
+** oznaczenie klastra na trie zloto **
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8f02e06a-2292-4085-b505-3bd7186c7339" />
