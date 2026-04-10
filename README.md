@@ -1,4 +1,4 @@
-# Potyczki Młodych Adminów: Finał 2026
+#DOKUMENTACJA W PLIKU dokumantacja.md !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ## Wstęp
 
