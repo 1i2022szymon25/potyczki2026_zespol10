@@ -23,9 +23,13 @@
 <img width="1242" height="904" alt="image" src="https://github.com/user-attachments/assets/4bbe8653-031e-4a86-8f2d-1444170fed45" />
 
 ### Zadanie 3
+** Poprawka httpdd na httpd **
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f51c6012-3b8e-435a-9e7f-c9241d5a9503" />
+** Poprawka target portu z 8080 na 80**
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/26aae94b-9cbd-4169-9e4a-81581dfdcd24" />
 
 
-** aktywny system premii**
+** aktywny system premii **
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b5c023e8-8349-46a7-9676-196a70fdb04d" />
 
 
