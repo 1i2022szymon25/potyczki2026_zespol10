@@ -28,3 +28,13 @@
 
 ** Strona z adresem https **
 <img width="1914" height="984" alt="image" src="https://github.com/user-attachments/assets/e68d995d-4bf4-4858-8480-0d2e97eec66f" />
+
+### Zadanie 8
+
+<img width="947" height="243" alt="image" src="https://github.com/user-attachments/assets/a4ab3b6a-50ac-4728-8cc6-b9a182a1ef91" />
+
+RBAC: Dodałem ClusterRoleBinding. Bez tego initContainer wyrzuciał błąd: Forbidden (403): nodes is forbidden.
+Zmieniłem ścieżkę z /healthz na / inaczej trzeba by bylo zmieniac konfig nginxa.
+
+Timery Probea: ustawienie periodSeconds: 2 i initialDelaySeconds: 2 skutkuje tym ze jak kontener zostanie zlagowany to kubernetes moze go zabic.
+
