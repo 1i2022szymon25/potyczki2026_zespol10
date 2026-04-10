@@ -23,36 +23,36 @@
 <img width="1242" height="904" alt="image" src="https://github.com/user-attachments/assets/4bbe8653-031e-4a86-8f2d-1444170fed45" />
 
 ### Zadanie 3
-** Poprawka httpdd na httpd **
+# Poprawka httpdd na httpd
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f51c6012-3b8e-435a-9e7f-c9241d5a9503" />
-** Poprawka target portu z 8080 na 80**
+#Poprawka target portu z 8080 na 80
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/26aae94b-9cbd-4169-9e4a-81581dfdcd24" />
 
-** poprawka na ksiegowy-app **
+#poprawka na ksiegowy-app
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f90aa929-4c07-4eb7-9fa9-c2e2df1ec502" />
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/71a3d303-a04c-4a40-8eca-07f42102ca30" />
 
 
-** aktywny system premii **
+#aktywny system premii 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b5c023e8-8349-46a7-9676-196a70fdb04d" />
 
 
 ### Zadanie 5
 
-** Przeskalowanie do 5 replik **
+# Przeskalowanie do 5 replik 
 <img width="1258" height="907" alt="image" src="https://github.com/user-attachments/assets/a5514815-9875-4edd-92a3-badf32657387" />
-** Ustawienie limitów dla ns ksiegowosc-prod **
+# Ustawienie limitów dla ns ksiegowosc-prod 
 <img width="1905" height="908" alt="image" src="https://github.com/user-attachments/assets/ec233dec-6cb5-48f2-a892-a584a19ff271" />
 
 ### zadanie 6
-** utworzenie secruty z wykonania komedy do generowania certyfikatu openssl **
+# utworzenie secruty z wykonania komedy do generowania certyfikatu openssl **
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a1036f8e-9583-4bd8-a358-29b156e8a634" />
 
-** dodanie certyfikatu do ingressa **
+# dodanie certyfikatu do ingressa 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7d7ca330-a006-4964-8913-eb12d78985b6" />
 
-** Tworzenie emptydir **
+# Tworzenie emptydir
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/884f8033-4b80-43a9-bf0b-1809536d18ed" />
 
 ** Podlaczenie emptydir**
@@ -63,21 +63,21 @@
 <img width="1241" height="908" alt="image" src="https://github.com/user-attachments/assets/4d496a66-006c-4576-b422-b6fcaf337f43" />
 
 
-** Strona z adresem https **
+# Strona z adresem https 
 <img width="1914" height="984" alt="image" src="https://github.com/user-attachments/assets/e68d995d-4bf4-4858-8480-0d2e97eec66f" />
 
 ### zadanie 7
-** Utworzenie klasy pamięci z polityką retain **
+# Utworzenie klasy pamięci z polityką retain 
 
 <img width="1256" height="905" alt="image" src="https://github.com/user-attachments/assets/275cbd88-eed0-4bf1-b3a9-054fe33db89e" />
 
 
-** utworzenie stateful seta + podłączenie volumina **
+# utworzenie stateful seta + podłączenie volumina 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ab45b29e-9ad2-4faf-9f07-804ef4fd0c88" />
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a3a0c492-476e-4f9d-a9b8-88cc28b35e2f" />
 
 
-** node scheduling **
+# node scheduling
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ea05148b-cd18-4dac-94b8-77fc928dda1e" />
 
 
@@ -90,7 +90,7 @@ Zmieniłem ścieżkę z /healthz na / inaczej trzeba by bylo zmieniac konfig ngi
 
 Timery Probea: ustawienie periodSeconds: 2 i initialDelaySeconds: 2 skutkuje tym ze jak kontener zostanie zlagowany to kubernetes moze go zabic.
 ## Zadanie 9 
-** utworzenie network policy **
+# utworzenie network policy
 
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/aae70dc2-81eb-446d-9fab-5215b792b4fa" />
@@ -100,5 +100,5 @@ Timery Probea: ustawienie periodSeconds: 2 i initialDelaySeconds: 2 skutkuje tym
 
 
 ### zadanie 10
-** oznaczenie klastra na trie zloto **
+# oznaczenie klastra na trie zloto 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8f02e06a-2292-4085-b505-3bd7186c7339" />
