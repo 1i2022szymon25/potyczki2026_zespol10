@@ -31,6 +31,8 @@ Twoim narzędziem pracy jest nowoczesny klaster K3s z panelem Rancher. Prezes ni
 * [2 pkt] Wystaw aplikację wewnątrz klastra za pomocą serwisu typu `ClusterIP`.
 * [4 pkt] Skonfiguruj zasób `Ingress` tak, aby strona była dostępna z zewnątrz pod darmowym adresem domenowym rozwiązującym się na IP klastra.
 
+
+
 ### Misja 2: "Panie, gdzie są moje faktury?!" (10 pkt)
 > *"Wczoraj wrzuciłem skany najważniejszych faktur na ten nowy serwer. Potem Wiesio wyciągnął wtyczkę od serwera, bo potrzebował gniazdka do odkurzacza. Włączam dzisiaj i pusto! Jakie efemeryczne kontenery?! Zainstaluj mi ten cały system Długi Róg czy jak to tam, ten Longhorn! Ja to się znam na tym bo w gazecie pisali. I zrób tak, żeby moje pliki tam siedziały na twardo!"*
 
@@ -72,6 +74,10 @@ Organizator wdrożył zepsute zasoby w przestrzeni `ksiegowosc-prod`. Twoim zada
 **Zadania do wykonania:**
 * [3 pkt] Przeskaluj wizytówkę firmy (`krzak-pol-web` z Misji 1) do 5 replik.
 * [7 pkt] Zabezpiecz serwer przed księgowością: nałóż na Deployment z przestrzeni `ksiegowosc-prod` twarde limity zasobów: Limit CPU = `150m`, Limit RAM = `128Mi`.
+* 
+<img width="1258" height="907" alt="image" src="https://github.com/user-attachments/assets/a5514815-9875-4edd-92a3-badf32657387" />
+
+<img width="1905" height="908" alt="image" src="https://github.com/user-attachments/assets/ec233dec-6cb5-48f2-a892-a584a19ff271" />
 
 ---
 
@@ -84,6 +90,7 @@ Organizator wdrożył zepsute zasoby w przestrzeni `ksiegowosc-prod`. Twoim zada
 * [5 pkt] Zmodyfikuj wizytówkę: dodaj `InitContainer`, który za pomocą prostego polecenia (np. `wget` lub `curl`) pobierze plik `index.html` z dowolnego zewnętrznego adresu (możesz użyć np. surowego pliku z GitHub/Gist).
 * [5 pkt] Podepnij współdzielony wolumen typu `emptyDir` między InitContainerem a głównym Nginxem, aby główny serwer mógł wyświetlić pobrany plik.
 * [5 pkt] Wygeneruj własny certyfikat (Self-Signed), zapisz go jako `Secret` typu TLS w klastrze i podepnij pod Ingress z Misji 1, zapewniając dostęp po HTTPS.
+<img width="1241" height="908" alt="image" src="https://github.com/user-attachments/assets/4d496a66-006c-4576-b422-b6fcaf337f43" />
 
 ### Misja 7: "Baza klientów na wieki wieków" (10 pkt)
 > *"Grażynka ma bazę prestiżowych klientów w Excelu. Każą nam to przenieść do jakiejś prawdziwej bazy, żeby było 'stanowo'. I najważniejsze: jak znowu Wiesio wyrwie kable, to dysk z danymi ma zostać nieruszony! Jakieś zasady Retain czy coś, nie znam się na tym, ale ma działać!"*
@@ -92,6 +99,10 @@ Organizator wdrożył zepsute zasoby w przestrzeni `ksiegowosc-prod`. Twoim zada
 * [4 pkt] Utwórz własną klasę pamięci (`StorageClass`) o nazwie `krzak-longhorn-retain`, bazującą na zainstalowanym Longhornie, wymuszającą politykę `reclaimPolicy: Retain`.
 * [6 pkt] W nowej przestrzeni `klienci-premium` wdróż instancję bazy danych MariaDB używając zasobu `StatefulSet`. Użyj `volumeClaimTemplates` skonfigurowanego do użycia nowej klasy pamięci.
 
+<img width="1256" height="905" alt="image" src="https://github.com/user-attachments/assets/d6ca3e2d-7ba4-4dc7-a085-c50c97db3a60" />
+<img width="1258" height="906" alt="image" src="https://github.com/user-attachments/assets/dc64f833-b098-4993-bfc1-1a760186af24" />
+
+
 ### Misja 8: "Pendrive Wiesia" (10 pkt)
 > *"Znalazłem pendrive w biurku Wiesia. Mówił, że to nowy Panel Kierownictwa. Próbowałem to odpalić z tego pliku YAML, ale wszystko świeci na czerwono. Grażynka płacze, ja nie mam podglądu w zyski. Napraw ten kod, niech to ruszy!"*
 
@@ -99,6 +110,14 @@ Organizator wdrożył zepsute zasoby w przestrzeni `ksiegowosc-prod`. Twoim zada
 W głównym katalogu tego repozytorium znajdziesz plik `pendrive.yaml`. Wdróż go w swoim klastrze, a następnie zdiagnozuj i napraw błędy, które uniemożliwiają jego działanie.
 * [5 pkt] Napraw błędy związane z RBAC.
 * [5 pkt] Napraw błędy powodujące nieskończone restarty Poda.
+
+<img width="947" height="243" alt="image" src="https://github.com/user-attachments/assets/f9dc08fe-544e-4d32-babc-b4fe14163267" />
+RBAC: Dodałem ClusterRoleBinding. Bez tego initContainer wyrzuciał błąd: Forbidden (403): nodes is forbidden.
+
+Zmieniłem ścieżkę z /healthz na / inaczej trzeba by bylo zmieniac konfig nginxa.
+
+Timery Probea: ustawienie periodSeconds: 2 i initialDelaySeconds: 2 skutkuje tym ze jak kontener zostanie zlagowany to kubernetes moze go zabic.
+
 
 ### Misja 9: "Paranoja i Twierdza Krzak-Pol" (10 pkt)
 > *"Wiesio ściągał najnowsze oprogramowanie (tag 'latest') i potem w piątek po południu pół firmy nie działało! Skonfiguruj ten cały NeuVector tak, żeby już NIKT nie mógł wdrażać niczego z 'latest'. A ta baza danych dla prestiżowych klientów z Misji 7? Zablokuj do niej dostęp WSZYSTKIM, poza naszą stroną internetową z Misji 6!"*
