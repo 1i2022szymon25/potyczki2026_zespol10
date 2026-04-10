@@ -28,6 +28,9 @@
 ** Poprawka target portu z 8080 na 80**
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/26aae94b-9cbd-4169-9e4a-81581dfdcd24" />
 
+** poprawka na ksiegowy-app **
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f90aa929-4c07-4eb7-9fa9-c2e2df1ec502" />
+
 
 ** aktywny system premii **
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b5c023e8-8349-46a7-9676-196a70fdb04d" />
