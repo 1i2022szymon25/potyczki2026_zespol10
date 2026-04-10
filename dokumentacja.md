@@ -66,6 +66,21 @@
 ** Strona z adresem https **
 <img width="1914" height="984" alt="image" src="https://github.com/user-attachments/assets/e68d995d-4bf4-4858-8480-0d2e97eec66f" />
 
+### zadanie 7
+** Utworzenie klasy pamięci z polityką retain **
+
+<img width="1256" height="905" alt="image" src="https://github.com/user-attachments/assets/275cbd88-eed0-4bf1-b3a9-054fe33db89e" />
+
+
+** utworzenie stateful seta + podłączenie volumina **
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ab45b29e-9ad2-4faf-9f07-804ef4fd0c88" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a3a0c492-476e-4f9d-a9b8-88cc28b35e2f" />
+
+
+** node scheduling **
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ea05148b-cd18-4dac-94b8-77fc928dda1e" />
+
+
 ### Zadanie 8
 
 <img width="947" height="243" alt="image" src="https://github.com/user-attachments/assets/a4ab3b6a-50ac-4728-8cc6-b9a182a1ef91" />
@@ -79,9 +94,9 @@ Timery Probea: ustawienie periodSeconds: 2 i initialDelaySeconds: 2 skutkuje tym
 
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/aae70dc2-81eb-446d-9fab-5215b792b4fa" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b3af6317-e131-424e-8ed0-6356602f1106" />
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/31d3403e-3674-44b2-8dfa-879b80864fe6" />
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/513c81ac-5160-4f3d-b1d8-a500ee6e613e" />
 
 
 ### zadanie 10
