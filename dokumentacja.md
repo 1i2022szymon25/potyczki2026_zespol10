@@ -107,3 +107,7 @@ Timery Probea: ustawienie periodSeconds: 2 i initialDelaySeconds: 2 skutkuje tym
 ### zadanie 10
 # oznaczenie klastra na trie zloto 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8f02e06a-2292-4085-b505-3bd7186c7339" />
+
+# konfigurowanie reguły aby baza uruchamiała się tylko na złotym więźle
+
+<img width="1920" height="1200" alt="obraz" src="https://github.com/user-attachments/assets/a596ed49-1fa6-4e1e-970c-f36e70231a0e" />
