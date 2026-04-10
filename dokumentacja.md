@@ -74,6 +74,14 @@ RBAC: Dodałem ClusterRoleBinding. Bez tego initContainer wyrzuciał błąd: For
 Zmieniłem ścieżkę z /healthz na / inaczej trzeba by bylo zmieniac konfig nginxa.
 
 Timery Probea: ustawienie periodSeconds: 2 i initialDelaySeconds: 2 skutkuje tym ze jak kontener zostanie zlagowany to kubernetes moze go zabic.
+## Zadanie 9 
+** utworzenie network policy **
+
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/aae70dc2-81eb-446d-9fab-5215b792b4fa" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/31d3403e-3674-44b2-8dfa-879b80864fe6" />
+
 
 ### zadanie 10
 ** oznaczenie klastra na trie zloto **
